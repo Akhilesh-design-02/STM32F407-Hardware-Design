@@ -1,0 +1,443 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bd2710a2-2d85-468c-8369-ffe2270f4adf")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 40.005 78.359)
+		(end 86.995 107.061)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1a66bbae-e504-4fb1-92c2-75625ec5aa41")
+	)
+	(rectangle
+		(start 115.443 77.851)
+		(end 162.433 106.553)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1bcaadb3-fb52-426e-9b00-7a93e47a0331")
+	)
+	(rectangle
+		(start 239.903 152.273)
+		(end 239.903 152.273)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "31f07a2d-9c33-4140-bb3e-f93d9f34d226")
+	)
+	(rectangle
+		(start 236.601 53.213)
+		(end 236.601 53.213)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4ba0e406-bd90-401b-a5e6-4cb120f0def7")
+	)
+	(rectangle
+		(start 38.862 28.702)
+		(end 85.852 57.404)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5c9381e3-a74d-4ce5-9d3c-0b6b70e306cb")
+	)
+	(rectangle
+		(start 197.612 126.746)
+		(end 244.602 155.448)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6fd3a1db-d818-465e-ace9-967cf9ed08f0")
+	)
+	(rectangle
+		(start 194.31 27.686)
+		(end 241.3 56.388)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7cceb82e-15e9-40eb-940a-825c67959655")
+	)
+	(rectangle
+		(start 157.734 103.378)
+		(end 157.734 103.378)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "80d9c63d-e263-4d6f-8820-e835fa32cab9")
+	)
+	(rectangle
+		(start 81.153 54.229)
+		(end 81.153 54.229)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "88d57f27-27e4-4e5b-a986-ccd26dc6028d")
+	)
+	(rectangle
+		(start 82.296 103.886)
+		(end 82.296 103.886)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a8fd6258-8dbf-4764-b6de-caac8710ac4f")
+	)
+	(rectangle
+		(start 195.453 77.343)
+		(end 242.443 106.045)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aafdae5a-a152-4c55-9e69-13d957587c33")
+	)
+	(rectangle
+		(start 237.744 102.87)
+		(end 237.744 102.87)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "abe51f55-295e-4987-9e6d-b2b442ea97ef")
+	)
+	(rectangle
+		(start 42.164 127.762)
+		(end 89.154 156.464)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c9537e59-f90d-4f4d-aa12-13304f945106")
+	)
+	(rectangle
+		(start 84.455 153.289)
+		(end 84.455 153.289)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "fb7b0309-dd28-4afa-8a09-88531291f40d")
+	)
+	(text "STM32F103\n"
+		(exclude_from_sim no)
+		(at 217.297 42.545 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "3ad4a627-6af6-47b1-8e51-5ee6c2e9ad51")
+	)
+	(text "I2S\n"
+		(exclude_from_sim no)
+		(at 102.108 90.678 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "5211a2b1-fcb0-4853-baed-509e5f77a0ee")
+	)
+	(text "1 GPIO\n"
+		(exclude_from_sim no)
+		(at 103.124 38.354 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "638936eb-9271-4de5-b3c3-1eb04a631876")
+	)
+	(text "CH340\n"
+		(exclude_from_sim no)
+		(at 218.44 92.202 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "6edc5b74-968c-477e-a8cc-fea4bddb24db")
+	)
+	(text "GT-0903A"
+		(exclude_from_sim no)
+		(at 61.849 43.561 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "75c2fff4-92e2-4820-a448-b6005d8da2bf")
+	)
+	(text "JTAG/SWD\n"
+		(exclude_from_sim no)
+		(at 170.688 37.338 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "7abff4dc-eafe-408b-a6e2-cbdbb8bb28be")
+	)
+	(text "STM32F407\n"
+		(exclude_from_sim no)
+		(at 138.43 92.71 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "7ddc45e5-3b50-4143-abd7-3d3e4ef85925")
+	)
+	(text "I2C\n"
+		(exclude_from_sim no)
+		(at 110.236 142.494 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "8ccdb845-1b8a-431e-987f-deb04ce50878")
+	)
+	(text "I2C\n"
+		(exclude_from_sim no)
+		(at 175.768 143.764 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "b697a28c-fc64-44b0-afec-9c44174d99d6")
+	)
+	(text "SGP40-D-R4"
+		(exclude_from_sim no)
+		(at 65.278 142.748 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "d78182d3-58e0-4089-93d1-4e2aca17a922")
+	)
+	(text "MMICT5848-00-012"
+		(exclude_from_sim no)
+		(at 62.992 93.218 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "e8c8c2d6-7b8e-4b40-944b-8ac214fe0a56")
+	)
+	(text "UART\n"
+		(exclude_from_sim no)
+		(at 180.086 87.122 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.25)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "eb7211bb-51da-4967-8e90-4b01638b07d0")
+	)
+	(text "SHT40-AD1B-R2"
+		(exclude_from_sim no)
+		(at 219.964 141.478 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "f01f4e05-7234-486e-a306-e0f88746bfec")
+	)
+	(polyline
+		(pts
+			(xy 123.698 40.132) (xy 85.852 40.132)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0f5719a4-1f13-4069-b71a-73a62d7fecfb")
+	)
+	(polyline
+		(pts
+			(xy 123.698 40.132) (xy 123.698 77.978)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "26b919c0-1f8e-4081-98f7-920ababaefa7")
+	)
+	(polyline
+		(pts
+			(xy 156.21 145.542) (xy 197.358 145.542)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3d99ea11-66b1-4cdd-8f5a-b7741b977d66")
+	)
+	(polyline
+		(pts
+			(xy 151.13 39.624) (xy 151.13 77.47)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4b418965-afb3-435e-a075-0edb1c077705")
+	)
+	(polyline
+		(pts
+			(xy 156.21 145.542) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "745dbd8b-df4f-4209-94d9-0e733a5865df")
+	)
+	(polyline
+		(pts
+			(xy 87.122 92.71) (xy 115.57 92.71)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "8edbd7eb-a21c-454f-b991-f2b906c6aa4c")
+	)
+	(polyline
+		(pts
+			(xy 162.56 89.408) (xy 195.326 89.408)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "90aa0446-736c-4be9-acb6-9c6db4dfe682")
+	)
+	(polyline
+		(pts
+			(xy 132.08 145.034) (xy 88.9 145.034)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c53818a0-2d09-460f-a8d6-039b754e7ee6")
+	)
+	(polyline
+		(pts
+			(xy 132.08 145.034) (xy 132.08 107.188)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f502648d-f2b0-44f3-9264-d3bb82943e48")
+	)
+	(polyline
+		(pts
+			(xy 151.13 39.624) (xy 194.31 39.624)
+		)
+		(stroke
+			(width 0.5)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f67c1e4b-71bf-4a01-a4e3-36ee9ae21568")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "af8486a1-7ffe-46a5-ac77-ff414ddaa3c3")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 116.84 43.18)
+		(end 172.72 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0f1351fd-ba9f-4f52-b1b7-6154b500f7a7")
+	)
+	(rectangle
+		(start 60.96 43.18)
+		(end 116.84 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3d4355e1-b865-43d3-a485-b38d2376e437")
+	)
+	(rectangle
+		(start 60.96 88.9)
+		(end 116.84 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "96567de7-d725-490e-9598-9ec62371ca31")
+	)
+	(rectangle
+		(start 172.72 43.18)
+		(end 228.6 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b556ee70-9114-4e2c-82c2-db6d9bdf405e")
+	)
+	(rectangle
+		(start 172.72 88.9)
+		(end 228.6 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ba8c0f79-b0e8-49c3-be47-5d7e17636bf3")
+	)
+	(text "Power Input &\nRegulators\n"
+		(exclude_from_sim no)
+		(at 88.646 68.834 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "466e46ac-e268-4c49-889f-edff31a362da")
+	)
+	(text "STM32F407 \nMain Controller\n\n\n"
+		(exclude_from_sim no)
+		(at 144.018 86.614 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "a0c65c86-9c7d-432c-bc59-fcc56cdda72e")
+	)
+	(text "Buzzer\n"
+		(exclude_from_sim no)
+		(at 200.914 111.252 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "c219eebb-3a9c-49f4-a7d0-b570770697b2")
+	)
+	(text "Sensors\n"
+		(exclude_from_sim no)
+		(at 199.898 65.532 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "c85b4d87-32ca-4b10-b425-ab78c04d6585")
+	)
+	(text "STM32F103 & CH340\n\n"
+		(exclude_from_sim no)
+		(at 88.138 112.268 0)
+		(effects
+			(font
+				(size 3 3)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "ff8a316e-325a-456c-afb4-754e5d01a1d4")
+	)
+	(sheet_instances
+		(path "/"
+			(page "8")
+		)
+	)
+)

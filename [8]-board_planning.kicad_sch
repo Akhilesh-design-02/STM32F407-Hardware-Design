@@ -1,0 +1,115 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6d486a49-e66e-406a-88ec-3aa835c135f6")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 78.74 35.56)
+		(end 208.28 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2020a2c1-888d-41ce-b6ff-14426eef5c29")
+	)
+	(text "Buzzer\n"
+		(exclude_from_sim no)
+		(at 188.976 126.746 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "074e2ee0-4f95-42e2-8c66-f421a07c3bfe")
+	)
+	(text "STM32F407 Main controller\n"
+		(exclude_from_sim no)
+		(at 144.78 97.282 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "7af15388-80a1-4f7d-9c4f-11e1ab0183d4")
+	)
+	(text "Sensors\n"
+		(exclude_from_sim no)
+		(at 188.976 82.55 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "c5196764-4abc-4b51-a49d-5315bf4383c5")
+	)
+	(text "Power\n"
+		(exclude_from_sim no)
+		(at 94.488 83.82 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "f38d91e6-6ed5-4dcd-8700-f237636d381e")
+	)
+	(text "STM32F103 Debbuger & CH340C\n"
+		(exclude_from_sim no)
+		(at 160.782 47.498 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.375)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "f8296626-1f1d-4320-8e42-49eb8095914e")
+	)
+	(polyline
+		(pts
+			(xy 114.3 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13622f2f-b28f-4109-97ef-12151a9ddf8e")
+	)
+	(polyline
+		(pts
+			(xy 114.3 35.56) (xy 114.3 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2424e543-6635-4642-9192-34719bfda709")
+	)
+	(polyline
+		(pts
+			(xy 170.18 66.04) (xy 170.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "943759f7-2b9c-4b5f-b92a-075dd4df85c8")
+	)
+	(sheet_instances
+		(path "/"
+			(page "8")
+		)
+	)
+)
