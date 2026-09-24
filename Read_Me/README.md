@@ -5,7 +5,7 @@ An advanced, high-performance **STM32F407 mixed-signal sensor interface PCB** fe
 ##  Key Engineering & Design Highlights
 * **4-Layer PCB Stackup:** Configured with optimized signal layers and dedicated internal plane routing for tight return paths and minimal EMI loop areas.
 * **Mixed-Signal Isolation:** Implement separate Analog and Digital grounds with a deliberate **power plane split** and a strategic single-point star ground to prevent switching noise from corrupting low-noise analog sensor lines.
-* Controlled Impedance Routing: Calculated and implemented 90Ω differential pairs for USB, 120Ω differential pairs for CAN bus, and 50Ω single-ended traces with source-series termination for low-noise I2S digital audio routing.
+* **Controlled Impedance Routing**: Calculated and implemented 90Ω differential pairs for USB, 120Ω differential pairs for CAN bus, and 50Ω single-ended traces with source-series termination for low-noise I2S digital audio routing.
 * **Component Selection & R&D:** Conducted thorough research and development to select components for the **SGP40** (VOC index) and **SHT40** (relative humidity/temperature) circuitry.
 * **Power Entry Planning:** Designed a stable power rail topology filtering inputs for both high-speed microcontroller digital switches and clean analog references.
 * **Signal Integrity:** Carefully calculated **controlled impedance matching** for the high-speed data buses and debugging links.
